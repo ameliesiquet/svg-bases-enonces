@@ -5,3 +5,18 @@
 	- à la moitié du temps, il a la moitité de sa taille ;
 	- à la fin, il revient à sa taille normale
 */
+circle{
+    animation: animation 2s infinite;
+    transform-origin: center;
+}
+@keyframes animation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

@@ -30,8 +30,21 @@
 Couleurs : #538B93 et #0F5156
 Durée de l'animation : 1s
 */
-
-
+@keyframes box01Animation {
+    0% {
+        fill: #538B93;
+    }
+    50% {
+        fill: #0F5156;
+    }
+    100% {
+        fill: #538B93;
+    }
+}
+.brandLogo__box--01 {
+    fill: #538B93;
+    animation: box01Animation 1s infinite;
+}
 
 /* Brand Logo Box 02 Animation
 ----------------------------------------------------- */
@@ -40,3 +53,20 @@ Couleurs : #6F7072 et #47494C
 Durée de l'animation : 1s
 Délai avant de démarrer l'animation : .3s
 */
+@keyframes box02Animation {
+    0% {
+        fill: #6F7072;
+    }
+    50% {
+        fill: #47494C;
+    }
+    100% {
+        fill: #6F7072;
+    }
+}
+
+.brandLogo__box--02 {
+    fill: #6F7072;
+    animation: box02Animation 1s infinite 0.3s;
+}
+

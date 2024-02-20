@@ -1,4 +1,4 @@
-<!-- 
+<!--
 SOURCE : Page de démonstration du tutoriel
 <a href="/tuto/lire/1421-svg-initiation-syntaxe-outils.html">SVG, le dessin vectoriel pour le web</a>
 -->
@@ -36,6 +36,11 @@ SOURCE : Page de démonstration du tutoriel
 	<body>
 		<h1>Un rectangle animé en SMIL avec l’élément &lt;animate&gt;</h1>
 		<div id="wrap">
+			<svg>
+				<rect width="300" height="50" fill="black"></rect>
+				<animate attributeName="width" values="0;300" dur="5s"/>
+
+			</svg>
 			<!-- Créer un rectangle de 300 px de large et 50 px de haut et l'animer avec l'élément animate pour qu'il apparaisse progressivement (il va d'une largeur de 0 à une largeur de 300 en 5 secondes) -->
 		</div>
 	</body>

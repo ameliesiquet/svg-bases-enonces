@@ -22,6 +22,16 @@
     </svg>
 </div>
 <script>
+    document.querySelector('button').addEventListener('click', ()=>{
+        const path= document.querySelector('path');
+        const pathLength = path.getTotalLength();
+        console.log(pathLength);
+        function animate() {
+            path.style.transition ='none';
+            path.style.strokeDasharray = pathLength + ' ' + pathLength;
+        }
+        animate()
+    })
     /**
     Écrivez ici le script JS qui réalise l’animation au clic sur le bouton
     - Obtenez la longueur du path

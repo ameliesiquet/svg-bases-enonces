@@ -4,6 +4,19 @@ Vous avez aussi besoin de définir deux attributs,
 - xmlns="http://www.w3.org/2000/svg"
 - version="1.1"
 -->
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <rect width="100" height="80" fill="black" >
+        <title>Premier rectangle noir</title>
+    </rect>
+    <rect width="80" height="50" fill="white" x="10" y="10">
+        <title>Rectangle blanc</title>
+        <desc>Il est recalé</desc>
+    </rect>
+    <rect width="40" height="10" x="30" y="90">
+        <title>Deuxième rectangle noir</title>
+        <desc>Décalé de 30, 90</desc>
+    </rect>
+</svg>
 
 <!--
 1. Placez-y un rectangle de 80 de haut et 100 de large (ce rectangle a, par défaut, un remplissage noir) ;

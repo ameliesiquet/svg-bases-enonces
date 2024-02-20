@@ -39,7 +39,7 @@
         }
 
         svg > text {
-        font-family: 'luckiest_guyregular', cursive;
+        font-family: 'luckiest_guyregular';
         fill: #F6F7F3;
         stroke: var(--dark-color);
         stroke-width: 3px;

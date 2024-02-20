@@ -9,8 +9,30 @@
     font-weight: normal;
     font-style: normal;
 }
-/* reprenez ici votre feuille de style de l'exercie n2-03-logo, nous allons la compéter */
 /*
-Stylez les petits triangles :
-- ils doivent tous avoir un contour de 1px d'épaisseur et un remplissage de couleur #59BFC6
+Etape 2 :
+- Ramenez ici toutes les propriétés de style du SVG qui peuvent être exportées dans un fichier CSS
 */
+circle{
+    fill: transparent;
+    stroke:#008B6F ;
+    stroke-width:7;
+}
+line{
+    stroke:#00392D;
+    stroke-width:5;
+    stroke-linecap: round;
+}
+polygon{
+    fill:#008B6F;
+    stroke:#00392D;
+    stroke-width:2;
+}
+text{
+    font-family:'luckiest_guyregular';
+    font-size: 60px;
+    fill:#F6F7F3;
+    stroke:#00392D;
+    stroke-width:3;
+    text-anchor:middle;
+}

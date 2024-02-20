@@ -44,6 +44,20 @@ SOURCE : Page de démonstration du tutoriel
 			Ils se placent l'un en-dessous de l'autre en quinconce
 			Les apparitions s'enchaînent
 			-->
+			<svg width="200" height="200">
+				<!-- Premier rectangle -->
+				<rect x="0" y="0" width="150" height="50">
+					<animate attributeName="opacity" values="0;1" begin="0s" dur="1s" fill="freeze" />
+				</rect>
+				<!-- Deuxième rectangle -->
+				<rect x="0" y="60" width="150" height="50">
+					<animate attributeName="opacity" values="0;1" begin="1s" dur="1s" fill="freeze" />
+				</rect>
+				<!-- Troisième rectangle -->
+				<rect x="0" y="120" width="150" height="50">
+					<animate attributeName="opacity" values="0;1" begin="2s" dur="1s" fill="freeze" />
+				</rect>
+			</svg>
 		</div>
 	</body>
 </html>
